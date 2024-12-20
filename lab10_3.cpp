@@ -23,4 +23,5 @@ int main(){
     cout << setprecision(3);
     cout << "Mean = "<< U << endl;
     cout << "Standard deviation = "<< a << endl;
+    return 0;
 }
