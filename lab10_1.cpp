@@ -16,10 +16,10 @@ int main(){
 		}else if(grade =="B"){
 			count[1] +=1;
 			i++;
-		}else if(grade =="D"){
+		}else if(grade =="C"){
 			count[2] +=1;
 			i++;
-		}else if(grade =="C"){
+		}else if(grade =="D"){
 			count[3] +=1;
 			i++;
 		}else if(grade =="F"){
@@ -33,12 +33,12 @@ int main(){
 	}while(true);
 	
 	
-	cout << "In total "<<i<<" students.\n";
+	cout << "In total "<<i-1<<" students.\n";
 	cout << "A = " << count[0] <<", ";
 	cout << "B = " << count[1] <<", ";	
 	cout << "C = " << count[2] <<", ";
 	cout << "D = " << count[3] <<", ";
-	cout << "F = " << count[4] <<", ";
+	cout << "F = " << count[4];
 	
 	return 0;
 }
